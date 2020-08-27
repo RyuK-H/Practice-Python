@@ -10,3 +10,9 @@ is_adult = age > 20
 print("우리집" + animal + "의 이름은 " + name + "에여")
 print("정수형은 str로 감싸야한데 ㄷㄷ" + str(age))
 print("bool은?" + str(is_adult))
+
+# 연산자
+print(1 != 3)
+print((3 > 0) & (3 < 5))
+print(5 > 4 > 3)
+print((3 > 0) | (3 > 4))
