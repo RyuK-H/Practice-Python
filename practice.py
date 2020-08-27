@@ -16,3 +16,16 @@ print(1 != 3)
 print((3 > 0) & (3 < 5))
 print(5 > 4 > 3)
 print((3 > 0) | (3 > 4))
+
+# 숫자처리함수
+print(abs(-4))
+print(pow(4,2))
+print(max(5, 10))
+print(min(3,-22))
+print(round(3.14))
+print(round(4.56))
+
+from math import *
+print(floor(4.99))
+print(ceil(3.14))
+print(sqrt(15))
