@@ -86,7 +86,38 @@
 # b = "노랑"
 # print(f"나는 {a} {b}")
 
-print("백문이 불여일견\n백견이 불여일타")
-print("케켘\"후\"후")
-print("케켘\\\"후\"후")
-print("케켘\t\"후\"후")
+# print("백문이 불여일견\n백견이 불여일타")
+# print("케켘\"후\"후")
+# print("케켘\\\"후\"후")
+# print("케켘\t\"후\"후")
+
+# subway = ["홍대역", "광교역", "판교역"]
+# print(subway)
+# subway.append("세류역")
+# subway.insert(2, "강남역")
+# print(subway)
+
+# cabinet = {3: "류기혁", 100: "하이"}
+# print(cabinet.get(3, "사용가능"))
+# print(3 in cabinet)
+
+# menu = ("돈까스", "치즈까스")
+# print(menu[0])
+
+# (name, age, hobby) = ("류기혁", "29", "음악")
+# print(name, age, hobby)
+
+# my_set = {1,2,3,3}
+# print(my_set)
+
+# java = {"유재석", "김태호", "양세형"}
+# python = set(["유재석", "박명수"])
+
+# print(java & python)
+# print(java.intersection(python))
+
+# print(java | python)
+# print(java.union(python))
+
+# print(java - python)
+# print(java.difference(python))
