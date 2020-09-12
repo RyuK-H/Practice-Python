@@ -140,3 +140,15 @@
 #   print("굳굳")
 # else:
 #   print("추워여")
+
+# for waiting_no in range(1,6):
+#   print("대기번호 : {0}".format(waiting_no))
+
+# customer = "류기혁"
+# index = 5
+
+# while index >= 1:
+#   print("{0}, 커피가 준비 되었습니다. {1} 번 남았어요.".format(customer, index))
+#   index -= 1
+#   if index == 0:
+#     print("커피 폐기처분")
