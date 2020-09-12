@@ -121,3 +121,22 @@
 
 # print(java - python)
 # print(java.difference(python))
+
+
+# weather = input("오늘 날씨는 어때요? : ")
+
+# if weather == "비" or weather == "눈" :
+#   print("우산을 챙기세요.")
+# elif weather == "미세먼지" :
+#   print("마스크 끼세여")
+# else :
+#   print("그냥 가세여")
+
+# temp = int(input("기온 : "))
+
+# if 30 <= temp:
+#   print("너무 더워요. 나가지 마셈")
+# elif 10 <= temp and temp < 30:
+#   print("굳굳")
+# else:
+#   print("추워여")
