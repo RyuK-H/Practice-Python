@@ -152,3 +152,14 @@
 #   index -= 1
 #   if index == 0:
 #     print("커피 폐기처분")
+
+absent = [2, 5]
+no = [7]
+
+for student in range(1, 11):
+  if student in absent:
+    continue
+  elif student in no:
+    break
+
+  print("{0}".format(student))
