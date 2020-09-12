@@ -153,13 +153,35 @@
 #   if index == 0:
 #     print("커피 폐기처분")
 
-absent = [2, 5]
-no = [7]
+# absent = [2, 5]
+# no = [7]
 
-for student in range(1, 11):
-  if student in absent:
-    continue
-  elif student in no:
-    break
+# for student in range(1, 11):
+#   if student in absent:
+#     continue
+#   elif student in no:
+#     break
 
-  print("{0}".format(student))
+#   print("{0}".format(student))
+
+# students = [1,2,3,4,5]
+# print(students)
+# students = [i+100 for i in students]
+# print(students)
+
+# def plus(a, b = 10):
+#   print(a + b)
+
+# plus(4)
+
+def profile(name, age, lang1, lang2):
+  print("이름 : {0}\t나이 : {1}\t".format(name, age), end=" ")
+  print(lang1, lang2)
+
+def profile2(name, age, *langs):
+  print("이름 : {0}\t나이 : {1}\t".format(name, age), end=" ")
+  for lang in langs:
+    print(lang, end=" ")
+
+profile("류기혁", "29", "한글", "ㅋㅋ")
+profile2("류기혁", "29", "한글", "ㅋㅋ", "꽥", "끽")
